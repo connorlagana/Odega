@@ -1,17 +1,19 @@
 import React from "react";
+import KeyboardArrowRight from "@material-ui/icons/KeyboardArrowRight";
 
-function MainHero() {
+const MainHero = () => {
   return (
-    <div className="App">
+    <div className="MainHero">
       <div className="mainHeroLeftDiv">
-        <div>Apps Made For Everyone.</div>
-        <div>
+        <div id="eforEveryone">Apps made for everyone.</div>
+        <div className="learnMore">
           <div>Learn More</div>
+          <KeyboardArrowRight color="secondary" id="arrowRight" />
         </div>
       </div>
-      <div className="mainHeroLeftDiv"></div>
+      <div className="mainHeroRightDiv"></div>
     </div>
   );
-}
+};
 
 export default MainHero;
