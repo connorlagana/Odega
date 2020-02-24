@@ -1,10 +1,15 @@
 import React from "react";
-import MainNav from "./MainNav.js";
 
 function MainHero() {
   return (
     <div className="App">
-      <MainNav />
+      <div className="mainHeroLeftDiv">
+        <div>Apps Made For Everyone.</div>
+        <div>
+          <div>Learn More</div>
+        </div>
+      </div>
+      <div className="mainHeroLeftDiv"></div>
     </div>
   );
 }
