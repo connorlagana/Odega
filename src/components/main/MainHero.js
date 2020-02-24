@@ -1,6 +1,6 @@
 import React from "react";
 import KeyboardArrowRight from "@material-ui/icons/KeyboardArrowRight";
-import mainHeroUndraw from "../../images/mainHeroUndraw.png";
+import mainHeroUndraw from "../../images/mainHeroUnDraw.png";
 
 const MainHero = () => {
   return (

@@ -3,6 +3,7 @@ import "./App.css";
 
 import MainHero from "./components/main/MainHero.js";
 import MainNav from "./components/main/MainNav.js";
+import WhatWeDo from "./components/main/WhatWeDo.js";
 
 import blueishBGBottom from "./images/BlueishBGBottom.png";
 
@@ -18,6 +19,7 @@ class App extends Component {
         <img id="blueishBGBottom" src={blueishBGBottom} />
         <MainNav />
         <MainHero />
+        <WhatWeDo />
       </div>
     );
   }

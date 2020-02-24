@@ -15,6 +15,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: fixed;
+  background-color: white;
 }
 
 .mainNavLeftDiv {
@@ -56,7 +58,7 @@
 }
 
 .MainHero {
-  height: 80vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -109,4 +111,42 @@
 
 .mainHeroRightDiv img {
   height: 40vh;
+}
+
+.WhatWeDo {
+  /* background-color: green; */
+  border-top: solid;
+  border-color: #8a8a8a;
+  border-width: 0.3vh;
+  height: 60vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wwdIndy {
+  height: 60vh;
+  width: 40vw;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  margin-top: 5vh;
+  flex-direction: column;
+}
+
+.wwdIndy img {
+  width: 30vw;
+}
+
+#devTitle {
+  font-size: 2.7vh;
+  color: #085191;
+}
+
+#devDesc {
+  font-size: 1.9vh;
+  color: #8a8a8a;
+  text-align: center;
+  width: 30vw;
 }
