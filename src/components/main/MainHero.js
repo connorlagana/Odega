@@ -1,5 +1,6 @@
 import React from "react";
 import KeyboardArrowRight from "@material-ui/icons/KeyboardArrowRight";
+import mainHeroUndraw from "../../images/mainHeroUndraw.png";
 
 const MainHero = () => {
   return (
@@ -11,7 +12,9 @@ const MainHero = () => {
           <KeyboardArrowRight color="secondary" id="arrowRight" />
         </div>
       </div>
-      <div className="mainHeroRightDiv"></div>
+      <div className="mainHeroRightDiv">
+        <img src={mainHeroUndraw} />
+      </div>
     </div>
   );
 };
