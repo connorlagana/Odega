@@ -23,7 +23,7 @@ class App extends Component {
         <MainNav />
         <MainHero />
         <WhatWeDo />
-        <OurApps />
+        {/* <OurApps /> */}
         <MeetTheTeam />
         <ContactUs />
       </div>
