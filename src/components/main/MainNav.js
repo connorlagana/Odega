@@ -1,5 +1,6 @@
 import React from "react";
 import odegaLogo from "../../images/OdegaLogo.png";
+import Fade from "react-reveal/Fade";
 
 function MainNav() {
   return (
@@ -12,8 +13,8 @@ function MainNav() {
       <div className="mainNavRightDiv">
         <div className="mainNavIndy">Home</div>
         <div className="mainNavIndy">What We Do</div>
-        <div className="mainNavIndy">Our Work</div>
-        <div className="mainNavIndy">About Us</div>
+        <div className="mainNavIndy">Our Apps</div>
+        <div className="mainNavIndy">Meet The Team</div>
         <div className="mainNavIndy">Contact Us</div>
       </div>
     </div>
