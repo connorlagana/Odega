@@ -27,26 +27,6 @@ class MeetTheTeam extends Component {
           picture: connorPic
         },
         {
-          name: "Connor Lagana",
-          job: "Lead Software Engineer",
-          picture: connorPic
-        },
-        {
-          name: "Connor Lagana",
-          job: "Lead Software Engineer",
-          picture: connorPic
-        },
-        {
-          name: "Connor Lagana",
-          job: "Lead Software Engineer",
-          picture: connorPic
-        },
-        {
-          name: "Connor Lagana",
-          job: "Lead Software Engineer",
-          picture: connorPic
-        },
-        {
           name: "Bennett Hall",
           job: "Lead Designer",
           picture: bennettPic
