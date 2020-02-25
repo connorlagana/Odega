@@ -46,7 +46,6 @@ class MeetTheTeam extends Component {
               </Fade>
               <Fade bottom>
                 <div id="memName">{member.name}</div>
-
                 <div id="memJob">{member.job}</div>
               </Fade>
             </div>

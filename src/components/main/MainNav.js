@@ -13,7 +13,7 @@ function MainNav() {
       <div className="mainNavRightDiv">
         <div className="mainNavIndy">Home</div>
         <div className="mainNavIndy">What We Do</div>
-        <div className="mainNavIndy">Our Apps</div>
+        {/* <div className="mainNavIndy">Our Apps</div> */}
         <div className="mainNavIndy">Meet The Team</div>
         <div className="mainNavIndy">Contact Us</div>
       </div>
