@@ -326,7 +326,13 @@
 }
 
 @media only screen and (max-width: 600px) {
-  #eforEveryone {
+  #eforEveryonee {
     font-size: 2.2vh;
+  }
+  .mainNavIndy {
+    font-size: 2vw;
+  }
+  .mainNavLeftDiv {
+    font-size: 4vw;
   }
 }
