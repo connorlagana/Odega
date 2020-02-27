@@ -163,7 +163,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 60vh;
+  height: 100vh;
 }
 
 #mttTitle {
@@ -188,7 +188,7 @@
 
 .member {
   height: 40vh;
-  width: 20vw;
+  width: 26vw;
   display: flex;
   justify-content: center;
   align-items: center;

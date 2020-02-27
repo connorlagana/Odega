@@ -4,6 +4,7 @@ import justinPic from "../../images/team/justin.jpeg";
 import kevinPic from "../../images/team/kevin.jpeg";
 import bennettPic from "../../images/team/bennett.jpeg";
 import connorPic from "../../images/team/connor.jpg";
+import jetonPic from "../../images/team/jeton.jpeg";
 
 class MeetTheTeam extends Component {
   constructor(props) {
@@ -30,7 +31,12 @@ class MeetTheTeam extends Component {
           name: "Bennett Hall",
           job: "Lead Designer",
           picture: bennettPic
-        }
+        },
+        {
+          name: "Jeton Aneti",
+          job: "iOS Engineer",
+          picture: jetonPic
+        },
       ]
     };
   }
