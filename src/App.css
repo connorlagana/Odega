@@ -56,6 +56,14 @@
   text-align: center;
   color: #085191;
   font-size: 2vh;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.mainNavIndy:hover {
+  background-color: #085191;
+  color: white;
+  border-radius: 2vh;
 }
 
 .MainHero {
@@ -89,6 +97,12 @@
   align-items: center;
   flex-direction: row;
   margin-top: 2vh;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.learnMore:hover {
+  margin-left: 3vh;
 }
 
 .learnMore div {

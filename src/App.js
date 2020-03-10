@@ -8,6 +8,8 @@ import MeetTheTeam from "./components/main/MeetTheTeam";
 import OurApps from "./components/main/OurApps";
 import ContactUs from "./components/main/ContactUs";
 
+import { Route } from "react-router-dom";
+
 import blueishBGBottom from "./images/BlueishBGBottom.png";
 
 class App extends Component {
@@ -21,8 +23,10 @@ class App extends Component {
       <div className="App">
         <img id="blueishBGBottom" src={blueishBGBottom} />
         <MainNav />
-        <MainHero />
-        <WhatWeDo />
+        <Route path="/" component={MainHero} />
+        <Route exact path="/whatwedo" component={WhatWeDo} />
+        {/* <MainHero /> */}
+        {/* <WhatWeDo /> */}
         {/* <OurApps /> */}
         <MeetTheTeam />
         <ContactUs />

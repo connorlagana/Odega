@@ -1,6 +1,7 @@
 import React from "react";
 import odegaLogo from "../../images/OdegaLogo.png";
 import Fade from "react-reveal/Fade";
+import { Link } from "react-router-dom";
 
 function MainNav() {
   return (
@@ -11,11 +12,15 @@ function MainNav() {
         <div id="studiosTitle">Studios</div>
       </div>
       <div className="mainNavRightDiv">
-        <div className="mainNavIndy">Home</div>
-        <div className="mainNavIndy">What We Do</div>
+        <Link className="mainNavIndy" to="/">
+          Home
+        </Link>
+        <a className="mainNavIndy" href="/whatwedo">
+          What We Do
+        </a>
         {/* <div className="mainNavIndy">Our Apps</div> */}
-        <div className="mainNavIndy">Meet The Team</div>
-        <div className="mainNavIndy">Contact Us</div>
+        <a className="mainNavIndy">Meet The Team</a>
+        <a className="mainNavIndy">Contact Us</a>
       </div>
     </div>
   );
